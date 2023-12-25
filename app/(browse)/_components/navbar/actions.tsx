@@ -1,3 +1,10 @@
+/**
+ * Renders the actions component for the navbar.
+ * This component displays different actions based on the user's authentication status.
+ * If the user is not authenticated, it shows a login button.
+ * If the user is authenticated, it shows a dashboard button and a user button.
+ * @returns JSX.Element
+ */
 import { Button } from "@/components/ui/button";
 import { SignInButton, UserButton, currentUser } from "@clerk/nextjs";
 import { Clapperboard } from "lucide-react";

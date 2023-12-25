@@ -1,3 +1,6 @@
+/**
+ * Component for rendering a search input field with search and clear functionality.
+ */
 "use client";
 
 import qs from "query-string";

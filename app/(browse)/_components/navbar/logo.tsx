@@ -1,3 +1,8 @@
+/**
+ * Renders the logo component.
+ *
+ * @returns The logo component.
+ */
 import Image from "next/image";
 import { Poppins } from "next/font/google";
 
